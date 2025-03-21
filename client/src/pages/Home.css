@@ -1,0 +1,108 @@
+/* Home Page Styles */
+.home-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('/Users/anishvarma/Downloads/back.png') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Makes sure it covers the full screen */
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.hero-buttons .btn {
+    margin: 10px;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+}
+
+/* Features Section */
+.features-section {
+    background: #f8f9fa;
+    padding: 50px 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 250px;
+}
+
+.feature-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.feature-card p {
+    font-size: 1rem;
+    color: gray;
+}
+.button-container {
+    margin-top: 50px; /* Moves buttons further down */
+    display: flex;
+    gap: 20px; /* Space between buttons */
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #28a745; /* Green color for contrast */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+.feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feature h2 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #666;
+}

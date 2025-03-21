@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "name": "Haldar Tool",
+    "description": "A traditional tool used for soil preparation.",
+    "price": 1200,
+    "rentPrice": 160,
+    "image": "haldar.png"
+  },
+  {
+    "id": 2,
+    "name": "Plough",
+    "description": "Essential for breaking up soil and preparing fields.",
+    "price": 2500,
+    "rentPrice": 200,
+    "image": "plough.png"
+  },
+  {
+    "id": 3,
+    "name": "Seed Drill",
+    "description": "Ensures uniform seed distribution and improves yield.",
+    "price": 5000,
+    "rentPrice": 300,
+    "image": "seedrill.png"
+  },
+  {
+      "id": 4,
+      "name": "Tractor",
+      "type": "rent",
+      "rentPrice": 5000,
+      "buyPrice": 800000,
+      "description": "A heavy-duty tractor suitable for plowing large fields.",
+      "image": "tractor1.png"
+  },
+  {
+      "id": 5,
+      "name": "Rotavator",
+      "type": "rent",
+      "rentPrice": 1500,
+      "buyPrice": 70000,
+      "description": "A rotary tiller used for soil preparation and weed control.",
+      "image": "Rotavator.png"
+  },
+  {
+      "id": 6,
+      "name": "Sprayer",
+      "type": "buy",
+      "buyPrice": 12000,
+      "description": "A portable sprayer for pesticides and fertilizers.",
+      "image": "sprayer.png"
+  },
+  {
+      "id": 7,
+      "name": "Harrow",
+      "type": "buy",
+      "buyPrice": 20000,
+      "description": "Breaks up and smooths soil for seedbed preparation.",
+      "image": "harrow.png"
+  },
+  {
+      "id": 8,
+      "name": "Power Weeder",
+      "type": "rent",
+      "rentPrice": 1000,
+      "buyPrice": 50000,
+      "description": "Used for removing weeds in vegetable and row crops.",
+      "image": "power_weeder.png"
+  },
+  {
+      "id": 9,
+      "name": "Post Hole Digger",
+      "type": "rent",
+      "rentPrice": 1200,
+      "buyPrice": 25000,
+      "description": "Ideal for digging holes for fencing and plantation.",
+      "image": "post_hole_digger.png"
+  },
+  {
+      "id": 10,
+      "name": "Threshing Machine",
+      "type": "rent",
+      "rentPrice": 4000,
+      "buyPrice": 120000,
+      "description": "Used for threshing crops like wheat, rice, and barley.",
+      "image": "threshing_machine.png"
+  },
+  {
+      "id": 11,
+      "name": "Water Pump",
+      "type": "buy",
+      "buyPrice": 18000,
+      "description": "A high-efficiency water pump for irrigation needs.",
+      "image": "water_pump.png"
+  },
+  {
+      "id": 12,
+      "name": "Chisel Plow",
+      "type": "buy",
+      "buyPrice": 90000,
+      "description": "Deep tillage tool for breaking compacted soil layers.",
+      "image": "chisel_plow.png"
+  }
+]

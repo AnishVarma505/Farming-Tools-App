@@ -1,0 +1,54 @@
+.confirmation-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.receipt {
+    text-align: left;
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.receipt h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.receipt ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.receipt li {
+    background: #eaf2ff;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.print-btn, .home-btn {
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.print-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.home-btn {
+    background-color: #007bff;
+    color: white;
+}
