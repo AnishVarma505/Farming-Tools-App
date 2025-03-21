@@ -24,7 +24,7 @@
     "eject": "react-scripts eject",
     "homepage": "https://AnishVarma505.github.io/Farming-Tools-App",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
 
   },
   "eslintConfig": {
