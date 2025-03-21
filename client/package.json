@@ -22,9 +22,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://your-github-username.github.io/Farming-Tools-App",
+    "homepage": "https://AnishVarma505.github.io/Farming-Tools-App",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -d build"
 
   },
   "eslintConfig": {
